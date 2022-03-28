@@ -3,7 +3,7 @@ AccessModifierOffset: -2
 ConstructorInitializerIndentWidth: 2
 AlignEscapedNewlinesLeft: false
 AlignTrailingComments: true
-AllowAllParametersOfDeclarationOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortBlocksOnASingleLine: false # otherwise the braces behind if(...) get moved up
 AllowShortFunctionsOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: true
@@ -13,7 +13,7 @@ AlwaysBreakBeforeMultilineStrings: false
 BreakBeforeBinaryOperators: true
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializersBeforeComma: true
-BinPackParameters: true
+BinPackParameters: false
 ColumnLimit:     80
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 DerivePointerBinding: false
